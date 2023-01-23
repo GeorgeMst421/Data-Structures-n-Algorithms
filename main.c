@@ -3,6 +3,7 @@
 #include "utility.h"
 #include "edgeFunctions.h"
 #include "bfs.h"
+#include "circles.h"
 #define SIZE 30
 
 

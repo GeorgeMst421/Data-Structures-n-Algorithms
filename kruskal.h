@@ -1,6 +1,7 @@
 #ifndef kruskal
 #define kruskal
 #include "utility.h"
+#include "edgeFunctions.h"
 
 /*Kruskal's Algorithm*/
 Node_list_ptr Make_set(int N);

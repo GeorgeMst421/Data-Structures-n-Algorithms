@@ -1,5 +1,5 @@
-#ifndef edgeFunctions.h
-#define edgeFunctions.h
+#ifndef edgeFunctions
+#define edgeFunctions
 
 #include "utility.h"
 

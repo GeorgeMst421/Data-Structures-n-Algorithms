@@ -1,5 +1,4 @@
-#include <bfs.h>
-
+#include "bfs.h"
 /*Initializes the color of the edges to White(0) for BFS Alg*/
 void InitColors(graph_ptr graph){
     edge_ptr aux;

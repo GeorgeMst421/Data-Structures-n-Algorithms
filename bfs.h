@@ -1,6 +1,7 @@
-#ifndef bfs.h
-#define bfs.h
+#ifndef bfs
+#define bfs
 #include "utility.h"
+#include "circles.h"
 
 /*Breadth First Search Functions*/
 void InitColors(graph_ptr graph);

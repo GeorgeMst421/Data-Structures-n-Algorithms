@@ -5,6 +5,7 @@
 #include "bfs.h"
 #include "circles.h"
 #include "kruskal.h"
+#include "primm.h"
 #define SIZE 30
 
 

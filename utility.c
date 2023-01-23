@@ -179,17 +179,6 @@ void free_Edges_list(Edge_list_ptr Edges){
     }
 }
 
-void Push_Edge_List_Insert(Edge_list_ptr list,edge_ptr edge){
-
-    if(list->head == NULL){
-        list->head = list->tail = edge;
-        return;
-    }
-    edge->prev = list->tail;
-    list->tail->next = edge;
-    list->tail = edge;  
-}
-
 /*Prints the List of Edges total weight*/
 void print_List_total_weight(Edge_list Edges){
     int total = 0;

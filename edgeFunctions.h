@@ -1,7 +1,9 @@
-#ifndef edgeInsert.h
-#define edgeInsert.h
+#ifndef edgeFunctions.h
+#define edgeFunctions.h
 
 #include "utility.h"
+
+edge_ptr Create_Edge(int i,int j,int weight);
 
 /*Edge Instertion Functions*/
 void Main_Insert(graph_ptr graph);

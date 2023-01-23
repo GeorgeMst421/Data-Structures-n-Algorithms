@@ -72,7 +72,7 @@ Node_list_ptr Create_Node_list();
 void print_Node_list(Node_list N_list);
 void free_Node_list(Node_list_ptr N_list);
 
-edge_ptr Create_Edge(int i,int j,int weight);
+
 void Edge_List_Insert(Edge_list_ptr List,edge_ptr edge);
 bool Edge_List_Search(Edge_list Edges,int i,int j);
 void print_Edges_list(Edge_list Edges);

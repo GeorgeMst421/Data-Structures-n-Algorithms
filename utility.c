@@ -106,15 +106,7 @@ void free_Node_list(Node_list_ptr N_list){
 }
 
 
-/*Creates a new edge*/
-edge_ptr Create_Edge(int i,int j,int weight){
-    edge_ptr NewEdge = (edge_ptr) malloc(sizeof(Edge));    
-    NewEdge->i = i;
-    NewEdge->j = j;
-    NewEdge->weight = weight;
-    NewEdge->next = NewEdge->prev = NewEdge->up = NewEdge->down = NULL;
-    return NewEdge;
-}
+
 
 /*Inserts a new edge on the Edges list*/
 void Edge_List_Insert(Edge_list_ptr List,edge_ptr edge){

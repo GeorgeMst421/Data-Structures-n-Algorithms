@@ -1,5 +1,5 @@
-#ifndef utility.h
-#define utility.h
+#ifndef utility
+#define utility
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -78,6 +78,6 @@ bool Edge_List_Search(Edge_list Edges,int i,int j);
 void print_Edges_list(Edge_list Edges);
 void free_Edges_list(Edge_list_ptr Edges);
 void Push_Edge_List_Insert(Edge_list_ptr list,edge_ptr edge);
-
+void print_List_total_weight(Edge_list Edges);
 
 #endif

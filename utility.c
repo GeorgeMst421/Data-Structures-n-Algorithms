@@ -190,4 +190,13 @@ void Push_Edge_List_Insert(Edge_list_ptr list,edge_ptr edge){
     list->tail = edge;  
 }
 
-
+/*Prints the List of Edges total weight*/
+void print_List_total_weight(Edge_list Edges){
+    int total = 0;
+    edge_ptr aux = Edges.head;
+    while(aux != NULL){
+        total += aux->weight;
+        aux = aux->next;
+    }
+    printf("Total weight: %d\n",total);
+}

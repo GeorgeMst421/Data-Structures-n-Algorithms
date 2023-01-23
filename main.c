@@ -4,6 +4,7 @@
 #include "edgeFunctions.h"
 #include "bfs.h"
 #include "circles.h"
+#include "kruskal.h"
 #define SIZE 30
 
 

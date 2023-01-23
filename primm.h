@@ -2,6 +2,8 @@
 #define primm
 
 #include "utility.h"
+#include "edgeFunctions.h"
+#include "bfs.h"
 
 /*Primm's Algorithm*/
 void Main_Primm(Graph graph);

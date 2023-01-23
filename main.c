@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "utility.h"
 #include "edgeFunctions.h"
+#include "bfs.h"
 #define SIZE 30
 
 
